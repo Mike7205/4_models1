@@ -1,0 +1,9 @@
+streamlit
+plotly
+yfinance==0.2.28
+openpyxl
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels==0.13.5
