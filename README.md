@@ -5,4 +5,4 @@
 - Arima
 - Gausian model
 
-### The results of these predictions may be easly compare with the results of my LSTM models predictions down below
+The results of these predictions may be easly compare with the results of my LSTM models predictions down below
