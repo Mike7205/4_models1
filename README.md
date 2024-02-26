@@ -1,5 +1,5 @@
 # 4_models1
-## The purpose of thei website is to get quick perspective of D+1 to D+5 trends developments with 4 models
+## The purpose of thei website is to get quick perspective from D+1 to D+5 trends developments with 4 models
 - Linear regression
 - DES regression
 - Arima
