@@ -93,8 +93,10 @@ def comm_data(comm):
     shape_test.append(v)
     Tab_length = pd.DataFrame(shape_test, columns= ['Name','Rows', 'Start_Date', 'End_Date','Close_max','Close_min','Last_close'])   
     Tab_his = Tab_length[['Start_Date','End_Date','Close_max','Close_min','Last_close']]
-    Tab_his['Start_Date'] = Tab_his['Start_Date'].dt.strftime('%Y-%m-%d')
-    Tab_his['End_Date'] = Tab_his['End_Date'].dt.strftime('%Y-%m-%d')
+    #Tab_his['Start_Date'] = Tab_his['Start_Date'].dt.strftime('%Y-%m-%d')
+    Tab_his.loc[:, 'Start_Date'] = Tab_his['Start_Date'].dt.strftime('%Y-%m-%d')
+    #Tab_his['End_Date'] = Tab_his['End_Date'].dt.strftime('%Y-%m-%d')
+    Tab_his.loc[:, 'End_Date'] = Tab_his['End_Date'].dt.strftime('%Y-%m-%d')
     #Tab_his1 = Tab_his.T
     #Tab_his1.rename(columns={0: "Details"}, inplace=True)
     
