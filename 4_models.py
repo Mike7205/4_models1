@@ -1,7 +1,7 @@
 # To jest wersja 2 nowej strony - gdzie modele mają opisy i parametry i jest ich więcej
 
 import streamlit as st
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import datetime as dt
