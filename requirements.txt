@@ -2,8 +2,8 @@ streamlit==1.35.0
 plotly
 yfinance==0.2.40
 openpyxl
-numpy
-pandas
+numpy==1.21.6
+pandas==1.3.5
 scipy
 scikit-learn
 statsmodels==0.13.5
