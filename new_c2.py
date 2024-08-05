@@ -33,6 +33,7 @@ comm_dict = {'^DJI':'DJI30','EURUSD=X':'USD_EUR','CNY=X':'USD/CNY',
              '^GSPC':'SP_500','^TNX':'10_YB','AED=X':'USD/AED',
              'HG=F':'Copper','GBPUSD=X':'USD_GBP',
              'JPY=X':'USD_JPY','EURPLN=X':'EUR/PLN','PLN=X':'PLN/USD'
+             ,'CHF=X':'USD/CHF','EURCHF=X':'EUR/CHF'
              ,'^FVX':'5_YB','RUB=X':'USD/RUB','PL=F':'Platinum',
              'SI=F':'Silver','NG=F':'Natural Gas','ZR=F':'Rice Futures',
              'ZS=F':'Soy Futures','KE=F':'KC HRW Wheat Futures'}
