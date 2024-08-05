@@ -29,14 +29,9 @@ set_page_config(layout="wide")
 # Definicje
 today = date.today()
 comm_dict = {'^DJI':'DJI30','EURUSD=X':'USD_EUR','CNY=X':'USD/CNY',
-             'CL=F':'Crude_Oil','GC=F':'Gold','^IXIC':'NASDAQ',
-             '^GSPC':'SP_500','^TNX':'10_YB','AED=X':'USD/AED',
-             'HG=F':'Copper','GBPUSD=X':'USD_GBP',
-             'JPY=X':'USD_JPY','EURPLN=X':'EUR/PLN','PLN=X':'PLN/USD'
+             'GBPUSD=X':'USD_GBP', 'JPY=X':'USD_JPY','EURPLN=X':'EUR/PLN','PLN=X':'PLN/USD'
              ,'CHF=X':'USD/CHF','EURCHF=X':'EUR/CHF'
-             ,'^FVX':'5_YB','RUB=X':'USD/RUB','PL=F':'Platinum',
-             'SI=F':'Silver','NG=F':'Natural Gas','ZR=F':'Rice Futures',
-             'ZS=F':'Soy Futures','KE=F':'KC HRW Wheat Futures'}
+             ,'RUB=X':'USD/RUB'}
 
 # Definicje do Korelacji
 comm_dict2 = {k: v for k, v in comm_dict.items() if k != '^DJI'}
